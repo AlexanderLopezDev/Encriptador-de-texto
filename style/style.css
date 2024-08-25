@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-family: "Montserrat", sans-serif;
+    font-size: 62.5%;
+    color: black;
+    background-color: #B5C0D0;
+}
+
+.contenido__logoAlura {
+    width: 12rem;
+    height: 4.8rem;
+    padding: 38px 0px 42px 40px;
+}
+.contenido {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.contenido__seccion1__div1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 19px 135px;
+    width: auto;
+    height: auto;
+    gap: 16px;
+}
+.contenido__seccion1__div1__posterior {
+    font-family: "Krona One", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 2.6rem;
+
+}
+.contenido__seccion1__textoTarea {
+    background-color: #CCD3CA;
+    padding: 38px;
+    width: 60rem;
+    height: 29rem;
+    justify-content: center;
+    text-align: justify;
+    font-size: 3rem;
+    color: black;
+    opacity: 0.8;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.contenido__seccion1__div1__inferior {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    gap: 16px;
+}
+.contenido__seccion1__imagenExclamacionTexto {
+    font-size: 1.2rem;
+    display: flex;
+    line-height: 150%;
+    gap: 4px;
+    width: auto;
+}
+.contenido__seccion1__imagenExclamacion {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+.contenido__seccion1__botones {
+    display: flex;
+    gap: 26px;
+    border-radius: 24px;
+    width: auto;
+}
+.contenido__seccion1__boton1 {
+    width: 32rem;
+    padding: 20px 0px;
+    border-radius: 24px;
+    font-size: 1.6rem;
+    color: black;
+    border: 0;
+    background-color: #F5E8DD;
+}
+.contenido__seccion1__boton1:hover {
+    background-color: #EED3D9;
+}
+.contenido__seccion1__boton2 {
+    width: 32rem;
+    padding: 20px 0px;
+    border-radius: 24px;
+    font-size: 1.6rem;
+    color: black;
+    border: 0;
+    background-color: #F5E8DD;
+}
+.contenido__seccion1__boton2:hover {
+    background-color: #EED3D9;
+}
+.contenido__seccion2 {
+    padding: 0px 135px 0px 0px;
+}
+
+.contenido__seccion2__div2 {
+    width: 42rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #CCD3CA;
+    padding: 25px;
+    border-radius: 32px;
+    align-items: center;
+    font-size: 2.2rem;
+    opacity: 0.8;
+    overflow-y: auto;
+    overflow-x: hidden;
+    overflow-wrap: break-word;
+}
+
+.contenido__seccion2__div2__texto2 {
+    width: 95%;
+    text-align: justify;
+}
+
+.contenido__seccion2__div2__boton {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.contenido__seccion2__div2__boton3 {
+    width: 20rem;
+    padding: 20px 0px;
+    border-radius: 24px;
+    font-size: 1.6rem;
+    color: black;
+    border: 0;
+    background-color: #F5E8DD;
+    display: none;
+}
+
+.contenido__seccion2__div2__boton3:hover {
+    background-color: #EED3D9;
+}
+
+.contenido__seccion2__div2__imagen {
+    width: 80%;
+}
+.footer {
+    background-color: #0c2e60;
+    padding: 23px;
+    text-align: center;
+    color: #B5C0D0;
+    font-size: 1.8rem;
+    
+}
+@media (max-width: 1100px) {
+    .contenido {
+        flex-direction: column;
+        align-items: center;    
+        gap: 10px;              
+    }
+
+    .contenido__seccion1__div1 {
+        padding: 0px 10px; 
+        width: 100%;    
+        align-items: center;   
+    }
+    .contenido__seccion1__div1__inferior {
+        gap: 1px;
+    }
+    .contenido__seccion1__textoTarea {
+        width: 59rem;  
+        height: 40rem;   
+        font-size: 2.5rem; 
+    }
+
+    .contenido__seccion1__botones {
+        gap: 12px; 
+        width: 49rem;
+    }
+    .contenido__seccion2 {
+        align-items: center;
+        padding: 0px 0px 30px 40px;
+    }
+    .contenido__seccion2__div2 {
+        width: 60rem; 
+        height: 13rem;
+        padding: 20px;
+    }
+
+    .contenido__seccion2__div2__texto2 {
+        font-size: 2rem; 
+    }
+
+    .contenido__seccion2__div2__imagen {
+        display: none !important; 
+    }
+    .contenido__logoAlura {
+        width: 9rem;
+        height: 4rem;
+        padding: 15px 0 15px 15px; 
+    }
+
+    .footer {
+        font-size: 1.6rem; 
+        padding: 15px; 
+    }
+}
+@media (max-width: 450px) {
+    .contenido {
+        flex-direction: column;
+        align-items: center;    
+        gap: 10px;              
+    }
+    .contenido__seccion1__div1 {
+        padding: 0px 20px 0px 0px; 
+        width: 100%;    
+        align-items: center;   
+    }
+    .contenido__seccion1__div1__inferior {
+        gap: 5px;
+    }
+    .contenido__seccion1__textoTarea {
+        width: 30rem;  
+        height: 25rem;   
+        font-size: 2rem; 
+        padding: 25px;
+    }
+
+    .contenido__seccion1__botones {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px; 
+        width: 30rem;
+    }
+    .contenido__seccion2 {
+        align-items: center !important;
+        padding: 0px 0px 20px 0px;;
+    }
+    .contenido__seccion2__div2 {
+        width: 32rem; 
+        height: 15rem;
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+
+    .contenido__seccion2__div2__texto2 {
+        font-size: 1.5rem; 
+    }
+
+    .contenido__seccion2__div2__imagen {
+        display: none !important; 
+    }
+    .contenido__seccion2__div2__boton {
+        gap: 8px;
+        width: 34rem;
+    }
+    .contenido__logoAlura {
+        width: 7rem;
+        height: 2rem;
+        padding: 8px 5px 5px 0px; 
+    }
+
+    .footer {
+        font-size: 1.5rem; 
+        padding: 10px; 
+    }
+}
+
+

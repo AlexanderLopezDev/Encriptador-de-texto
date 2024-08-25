@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header></header>
+    <img class="contenido__logoAlura" src="./assets/Logo.png" alt="Logo Alura">
+    <main class="contenido">
+        <section class="contenido__seccion1">
+            <div class="contenido__seccion1__div1">
+                <div class="contenido__seccion1__div1__posterior">
+                    <label class="contenido__seccion1__div1__posterior__label">Encriptador de texto </label>
+                    <textarea id="textarea" name="entradaDeTexto" class="contenido__seccion1__textoTarea" placeholder="Ingrese el texto aqui"></textarea>
+                </div>
+                <div class="contenido__seccion1__div1__inferior">
+                    <p class="contenido__seccion1__imagenExclamacionTexto"> <img class="contenido__seccion1__imagenExclamacion" src="./assets/Signo de exclamación.png" alt="Signo de exclamación"> Solo letras minúsculas y sin acentos</p>
+                    <div class="contenido__seccion1__botones">
+
+                        <button onclick="obtenertexto()" class="contenido__seccion1__boton1">Encriptar</button>
+                        <button onclick="devolvertexto()" class="contenido__seccion1__boton2">Desencriptar</button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contenido__seccion2">
+            <div class="contenido__seccion2__div2">
+                <img id="imagenflork" class="contenido__seccion2__div2__imagen" src="./assets/imagenflork.png" alt="imagen_De_Flork">
+                <p id="textofinal" class="contenido__seccion2__div2__texto2" ></p>
+                <p id="textoanuncio" class="contenido__seccion2__texto1">Ningún mensaje fue encontrado!</p>
+            </div>
+            <div class="contenido__seccion2__div2__boton">
+                <button id="botonesc" onclick="copiar()" class="contenido__seccion2__div2__boton3">Copiar</button>
+                <button id="botonesl" onclick="limpiar()" class="contenido__seccion2__div2__boton3">Limpiar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">Desarrollado por Alexander López</footer>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
