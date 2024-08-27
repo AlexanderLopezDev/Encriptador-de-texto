@@ -2,6 +2,7 @@
 function obtenertexto() {
     const textarea = document.getElementById('textarea').value
         .toLowerCase()
+        .replace(/[^a-z\s]/g, "")
         .normalize('NFD')
         .replace(/[\u0300-\u036f]/g, "");
     const palabra = textarea
@@ -18,6 +19,7 @@ function obtenertexto() {
 function devolvertexto() {
     const textarea = document.getElementById('textarea').value
         .toLowerCase()
+        .replace(/[^a-z\s]/g, "")
         .normalize('NFD')
         .replace(/[\u0300-\u036f]/g, "");
     const palabra = textarea
